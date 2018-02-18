@@ -1,0 +1,15 @@
+li a {
+  font-size: 18px;
+}
+
+li a:hover {
+  color: #fff;
+}
+
+header h1 {
+  color: rgba(255,255,255,.8);
+}
+
+a:active {
+  color: #fff;
+}

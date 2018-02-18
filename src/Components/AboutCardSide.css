@@ -1,0 +1,16 @@
+#skills button {
+  margin: 5px;
+}
+
+button:disabled {
+  text-decoration: none;
+  color: #000;
+}
+
+.hr {
+  border: 1px solid #888;
+}
+
+#ed p {
+  margin-bottom: 0px;
+}
