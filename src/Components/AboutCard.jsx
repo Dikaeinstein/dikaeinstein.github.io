@@ -7,11 +7,11 @@ const AboutCard = () => (
     <h3 className="mb-4 font-weight-bold">Solomon Okwa</h3>
     <CloudinaryContext cloudName="dikaeinstein">
       <Image
-        publicId="LinkedIn-dika_refbep.jpg"
+        publicId="portfolio/LinkedIn-dika_refbep.jpg"
         className="img-fluid rounded w-75"
       >
-        <Transformation radius="0" width="1920" x="0" y="1000" crop="crop" />
-        <Transformation quality="100" width="625" crop="scale" dpr="auto" />
+        <Transformation width="1920" y="1000" crop="crop" />
+        <Transformation dpr="auto" width="625" crop="scale" />
       </Image>
     </CloudinaryContext>
     <div className="mt-4">
