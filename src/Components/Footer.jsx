@@ -28,7 +28,7 @@ const Footer = () => (
       </p>
     </div>
     <div className="col-md-4">
-      <p className="mt-md-3 font-weight-bold">&copy; 2017</p>
+      <p className="mt-md-3 font-weight-bold">&copy; {new Date().getFullYear()}</p>
     </div>
   </footer>
 );
