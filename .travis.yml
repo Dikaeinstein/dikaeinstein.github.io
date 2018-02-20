@@ -1,10 +1,17 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
+script:
+  - npm i -g yarn
+  - yarn run build
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
-  keep-history: true
   on:
     branch: develop
-  local-dir: ./build
+  local-dir: build
   target-branch: master
-  verbose: true
