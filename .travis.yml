@@ -5,7 +5,6 @@ deploy:
   keep-history: true
   on:
     branch: develop
-local-dir: ./build
-target-branch: master
-keep-history: true
-verbose: true
+  local-dir: ./build
+  target-branch: master
+  verbose: true
