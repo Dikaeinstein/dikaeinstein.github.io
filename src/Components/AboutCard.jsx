@@ -8,7 +8,8 @@ const AboutCard = () => (
     <CloudinaryContext cloudName="dikaeinstein">
       <Image
         publicId="portfolio/LinkedIn-dika_refbep.jpg"
-        className="img-fluid rounded w-75"
+        className="img-fluid rounded-circle w-75"
+        style={{ height: '50vh' }}
       >
         <Transformation width="1920" y="1000" crop="crop" />
         <Transformation dpr="auto" width="625" crop="scale" />
