@@ -19,7 +19,7 @@ const AboutCard = () => (
       <h6 className="font-weight-bold">in Lagos, Nigeria.</h6>
       <div className="hr m-md-4 mt-4 ml-2 mr-2" />
       <p className="ml-md-4 mr-md-4 mt-4 font-weight-bold text-secondary">
-        I&lsquo;m a Physics graduate. Aspiring Full Stack web developer with working knowledge of
+        I&lsquo;m a Physics graduate. Self taught, aspiring Full Stack Web Developer with working knowledge of
         HTML5, CSS3, JavaScript (ES6), jQuery, Reactjs,
         Express, MongoDB, NodeJs, Python and SQL databases (Postgresql and SQL Server).
         Currently living in Lagos, Nigeria.
