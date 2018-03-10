@@ -1,6 +1,6 @@
 import React from 'react';
-import AboutCard from './AboutCard';
-import AboutCardSide from './AboutCardSide';
+import AboutCard from './AboutCard/AboutCard';
+import AboutCardSide from './AboutCardSide/AboutCardSide';
 
 const Main = () => (
   <main className="container mt-5">

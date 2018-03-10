@@ -1,6 +1,6 @@
 import React from 'react';
-import Skills from './Skills';
-import Experience from './Experience';
+import Skills from '../Skills';
+import Experience from '../Experience';
 import './AboutCardSide.css';
 
 const AboutCardSide = () => (
