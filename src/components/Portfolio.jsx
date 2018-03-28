@@ -8,7 +8,7 @@ const projects = [
     imgUrl: 'portfolio/weather-proj_modqed',
     url: 'https://dikaeinstein.github.io/local_weather_app',
   },
-  { 
+  {
     id: 1,
     name: 'Styles Conference',
     imgUrl: 'portfolio/resp-proj_x9x7wx',

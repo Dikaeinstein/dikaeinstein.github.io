@@ -1,22 +1,23 @@
 import React from 'react';
+import Button from './Button';
 
-const Skills = () => (
-  <div className="row m-4">
-    <div className="col-md-12" id="skills">
-      <h3 className="mb-4 font-weight-bold">Skills and Technologies</h3>
-      <button className="btn font-weight-bold" disabled>HTML (5)</button>
-      <button className="btn font-weight-bold" disabled>CSS (3)</button>
-      <button className="btn font-weight-bold" disabled>JavaScript (Nodejs)</button>
-      <button className="btn font-weight-bold" disabled>Reactjs</button>
-      <button className="btn font-weight-bold" disabled>Express</button>
-      <button className="btn font-weight-bold" disabled>MongoDB</button>
-      <button className="btn font-weight-bold" disabled>jQuery</button>
-      <button className="btn font-weight-bold" disabled>Test Driven Development (TDD)</button>
-      <button className="btn font-weight-bold" disabled>Postgresql</button>
-      <button className="btn font-weight-bold" disabled>MSSql (SQL Server)</button>
-      <button className="btn font-weight-bold" disabled>Python</button>
+const Skills = () => {
+  const skills = [
+    'HTML', 'CSS', 'JavaScript', 'Reactjs', 'Express',
+    'MongoDB', 'jQuery', 'Test Driven Development',
+    'Postgresql', 'MSSql (SQL Server)', 'Python',
+  ];
+
+  return (
+    <div className="row m-4">
+      <div className="col-md-12" id="skills">
+        <h3 className="mb-4 font-weight-bold">Skills and Technologies</h3>
+        {skills.map(skill => (
+          <Button value={skill} className="btn font-weight-bold" disabled />
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Skills;
